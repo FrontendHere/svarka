@@ -1,0 +1,41 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.header{
+	padding: 10px 0 9px 0;
+}
+.navbar__button,
+.navbar__button:hover,
+.navbar__button:focus
+{
+	outline: none;
+}
+.navbar__a{
+	color: #000000 !important;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	padding: 0 .8rem !important;
+	transition: all 0.3s;
+}
+@media (max-width: 992px){
+	.nav-wrapper{
+		padding: 0;
+	}
+	.header .container{
+		width: auto;
+		max-width: 100%;
+	}
+	.header{
+		padding: 0;
+	}
+	.navbar{
+		background-color: #12121c !important;
+	}
+	.navbar__button{
+		border-radius: 0;
+	}
+	.navbar__a{
+		color: #fff !important;
+	}
+}
